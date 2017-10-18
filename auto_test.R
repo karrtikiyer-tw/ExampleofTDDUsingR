@@ -1,3 +1,3 @@
 install.packages("testthat")
 library(testthat)
-auto_test("code", "test")
+auto_test("code", "test", reporter = "Tap")
