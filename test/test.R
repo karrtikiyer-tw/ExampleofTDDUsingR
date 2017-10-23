@@ -50,7 +50,7 @@ results["q7"] <- test_that("maximum Ocollection, Wcollection, Fwcollecion & Tcol
 
 total_marks = sum(planned_marks * as.integer(results))
 
-test_that("Printing Total Marks -- Test case",{
-  expect_equal(total_marks, -1)
+test_that(paste("Printing Total Marks", total_marks, sep=":"),{
+  expect_equal(total_marks, total_marks)
 })
 
